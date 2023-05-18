@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable-v24/bg_social_login.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/background_round_nav_drawer.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_blue_10.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_border_add_img.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_drop_down_add.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_edt_round.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_icon_btm_nav_gradient.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_round_spinner.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_shape_btm_nav.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_shape_random.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_social_login.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_white_bottom_shape.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/bg_white_top_shape.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/course_dropdown_item.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/edt_bg_white_corner.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/ic_home_btm_nav_selected.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/ic_next_screen_wc1.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/ic_next_screen_wc2.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/ic_right_arrow.xml" value="0.1705" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/menu_item_color_state.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/drawable/round_top_background.xml" value="0.1635" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_aero_eng.xml" value="0.24010416666666667" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_all_semester.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_chem_eng.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_civil_eng.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_comp_eng.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_elec_com.xml" value="0.24010416666666667" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_elec_eng.xml" value="0.24010416666666667" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_info_tech.xml" value="0.24010416666666667" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_mech_eng.xml" value="0.24010416666666667" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_pre_year_paper.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_privacy_policy.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_reset_pass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_show_books.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_tex_eng.xml" value="0.24010416666666667" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/course_dropdown_item.xml" value="0.2" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/fragment_add.xml" value="0.264" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/fragment_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/fragment_home.xml" value="0.253125" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/fragment_my_books.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/item_rv_course.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/item_rv_sem.xml" value="0.264" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/item_rv_show_books.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/nav_drawer_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/welcome_activity1.xml" value="0.20854700854700856" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/welcome_activity2.xml" value="0.2" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/layout/welcome_activity3.xml" value="0.2076923076923077" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Bhai/Final Book Transaction/BookMyBook/app/src/main/res/menu/nav_drawer_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

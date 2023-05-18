@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_off_white"
+    tools:context=".activity.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvSignIn"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/transparent"
+            android:src="@drawable/img_login" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@color/transparent"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Sign up"
+            android:textColor="@color/color_primary"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFullName"
+            style="@style/login_edt_text"
+            android:drawableStart="@drawable/ic_name"
+            android:hint="Full name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            style="@style/login_edt_text"
+            android:drawableStart="@drawable/ic_mobile"
+            android:hint="Mobile"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etEmailSignUp"
+            style="@style/login_edt_text"
+            android:drawableStart="@drawable/ic_email"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress" />
+
+        <RelativeLayout
+            style="@style/login_edt_text"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/etPasswordSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:drawableStart="@drawable/ic_password"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/color_hint" />
+
+            <ImageView
+                android:id="@+id/ivPassHideShow"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:onClick="ShowHidePass"
+                android:src="@drawable/ic_password_hide_eye"
+                app:tint="@color/color_hint" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/login_edt_text"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/etConPasswordSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:drawableStart="@drawable/ic_password"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/color_hint" />
+
+            <ImageView
+                android:id="@+id/ivPassHideShow1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:onClick="ShowHidePass"
+                android:src="@drawable/ic_password_hide_eye"
+                app:tint="@color/color_hint" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_blue_10"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@color/transparent"
+            android:text="Or, Continue with.."
+            android:visibility="gone"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/color_hint"
+            android:textSize="@dimen/_10sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/transparent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llGoogleSignUp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:background="@drawable/bg_social_login"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_google"
+                    app:tint="@color/color_blue" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:text="Google"
+                    android:textColor="@color/color_blue"
+                    android:textSize="@dimen/_11ssp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@color/transparent"
+        android:padding="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/txt_already_loggedin"
+        android:textColor="@color/color_hint"
+        android:textColorLink="@color/color_primary"
+        android:textSize="@dimen/_13ssp" />
+
+</RelativeLayout>

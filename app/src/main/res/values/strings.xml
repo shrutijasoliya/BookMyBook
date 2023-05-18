@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">BookMyBook</string>
+    <string name="client_id">445879258969-hb1lk1d25l9ktg0g5i6psesrgd356kkd.apps.googleusercontent.com</string>
+    <string name="txt_already_link">Don\'t have an account? <a href="https://learntodroid.com">Sign Up</a></string>
+    <string name="txt_already_loggedin">Already have an account? <a href="https://learntodroid.com">Sign In</a></string>
+
+    <string name="wc1_title">Find Favourite Books</string>
+    <string name="wc1_description">Find your favourite book \nthat you want to buy</string>
+    <string name="wc2_title">Low cost</string>
+    <string name="wc2_description">Find and purchase a book \n at low cost</string>
+    <string name="wc3_title">Sell your books</string>
+    <string name="wc3_description">Sell your books and get \n your money back</string>
+
+    <string name="add_heading">Add your book</string>
+    <string name="add_pic_book">Add a photo of book</string>
+
+    <string name="comp_eng">Computer Engineering</string>
+    <string name="mech_eng">Mechanical Engineering</string>
+    <string name="info_tech">Information Technology</string>
+    <string name="elec_eng">Electrical Engineering</string>
+    <string name="civil_eng">Civil Engineering</string>
+    <string name="chem_eng">Chemical Engineering</string>
+    <string name="elec_com">Electronics and Communication</string>
+    <string name="tex_eng">Textile Engineering</string>
+    <string name="aero_eng">Aeronotical Engineering</string>
+
+    <string name="sem_1">Semester 1</string>
+    <string name="sem_2">Semester 2</string>
+    <string name="sem_3">Semester 3</string>
+    <string name="sem_4">Semester 4</string>
+    <string name="sem_5">Semester 5</string>
+    <string name="sem_6">Semester 6</string>
+    <string name="sem_7">Semester 7</string>
+    <string name="sem_8">Semester 8</string>
+    <string name="menu_pre_paper">Previous Year Papers</string>
+    <string name="menu_reset_pass">Reset Password</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="menu_rate_app">Rate App</string>
+    <string name="menu_share_app">Share App</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="hint_enter_name">Enter Full Name</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_mobile">Enter Mobile</string>
+    <string name="hint_clg_name">Enter College Name</string>
+
+    <string name="update_profile">Update Profile</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="no_book_uploaded">No any book is uploaded</string>
+
+    <string name="select_course">Book Course</string>
+    <string name="select_semester">Select Semester</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="book_description">Book Description (Author,..)</string>
+    <string name="description">Description</string>
+    <string name="book_price">Book Price (Rs.)</string>
+    <string name="price">Price</string>
+    <string name="owner">Owner</string>
+    <string name="e_mail">E-mail</string>
+
+    <!--    <string-array name="select_course">-->
+    <!--        <item>Computer Engineering</item>-->
+    <!--        <item>Mechanical Engineering</item>-->
+    <!--        <item>Information Technology</item>-->
+    <!--        <item>Electrical Engineering</item>-->
+    <!--        <item>Civil Engineering</item>-->
+    <!--        <item>Chemical Engineering</item>-->
+    <!--        <item>Electronics and Communication</item>-->
+    <!--        <item>Textile Engineering</item>-->
+    <!--        <item>Aeronotical Engineering</item>-->
+    <!--    </string-array>-->
+
+
+</resources>

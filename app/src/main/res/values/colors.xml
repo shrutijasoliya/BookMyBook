@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_primary">#06A9EA</color>
+    <color name="color_blue">#06A9EA</color>
+    <color name="color_medium_blue">#9CC4FF</color>
+    <color name="color_off_white">#2DE1DEDE</color>
+    <color name="transparent">#00E1DEDE</color>
+    <color name="grey">#B4B4B4</color>
+    <color name="light_grey">#2DAFAFAF</color>
+
+    <color name="color_off_blue">#F3F5F8</color>
+
+    <color name="color_background">#25273C</color>
+    <color name="blue_dark">#041686</color>
+    <color name="app_text_color">#110F37</color>
+    <color name="color_hint">#ACACAC</color>
+    <color name="color_text">#252424</color>
+    <string name="fa_icon_areachart">&#xf1fe;</string>
+
+    <array name="dot_on_page_active">
+        <item>#06A9EA</item>
+        <item>#06A9EA</item>
+        <item>#06A9EA</item>
+    </array>
+
+    <array name="dot_on_page_not_active">
+        <item>#97D1E8</item>
+        <item>#97D1E8</item>
+        <item>#97D1E8</item>
+    </array>
+
+</resources>

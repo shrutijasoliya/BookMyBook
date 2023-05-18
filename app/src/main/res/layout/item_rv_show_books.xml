@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:background="@color/transparent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvRVShowBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginVertical="@dimen/_7sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_3sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/ivBookRVShowBooks"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_add_img" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:id="@+id/llRVSubNameShowBook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/subject_name" />
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text=" : " />
+
+                        <TextView
+                            android:id="@+id/tvRVSubNameShowBook"
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llRVBookDescShowBook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/description" />
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text=" : " />
+
+                        <TextView
+                            android:id="@+id/tvRVBookDescShowBook"
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llRVBookPriceShowBook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/price" />
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text=" : ₹ " />
+
+                        <TextView
+                            android:id="@+id/tvRVBookPriceShowBook"
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llRVOwnerNameShowBook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/owner" />
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text=" : " />
+
+                        <TextView
+                            android:id="@+id/tvRVOwnerNameShowBook"
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text=" " />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llRVOwnerMailShowBook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/e_mail" />
+
+                        <TextView
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text=" : " />
+
+                        <TextView
+                            android:id="@+id/tvRVOwnerMailShowBook"
+                            style="@style/book_item_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text=" " />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMessage"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_33sdp"
+                android:background="@drawable/bg_blue_10"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Message"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_33sdp"
+                android:background="@drawable/bg_blue_10"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Delete"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:textSize="@dimen/_14ssp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

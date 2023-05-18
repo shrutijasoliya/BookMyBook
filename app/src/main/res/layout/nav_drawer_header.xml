@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120sdp"
+    android:background="@drawable/round_top_background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civUserProfilePicNav"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/tvUserNameNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/civUserProfilePicNav"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/roboto_bold"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:id="@+id/tvUserEmailIDNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUserNameNav"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/roboto_regular"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp" />
+
+</RelativeLayout>

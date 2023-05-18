@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color_off_white"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_off_white"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivAddImg"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/bg_border_add_img"
+                android:padding="@dimen/_5sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_add_img" />
+
+            <TextView
+                android:id="@+id/tvAddImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/transparent"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/add_pic_book"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinnerSelCourse"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_12ssp"
+                app:ms_background_color="@color/white"
+                app:ms_hint="@string/select_course"
+                app:ms_text_color="@color/black" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinnerSelSem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_12ssp"
+                app:ms_background_color="@color/white"
+                app:ms_hint="@string/select_semester"
+                app:ms_text_color="@color/black" />
+
+            <EditText
+                android:id="@+id/etSubNameAdd"
+                style="@style/edt_add_book"
+                android:hint="@string/subject_name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/etBookDesc"
+                style="@style/edt_add_book"
+                android:hint="@string/book_description"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/etBookPrice"
+                style="@style/edt_add_book"
+                android:hint="@string/book_price"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/btnAddBook"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/bg_blue_10"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Add Book"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

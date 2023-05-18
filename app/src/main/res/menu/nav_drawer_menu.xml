@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/navPrePaper"
+            android:icon="@drawable/ic_pre_paper"
+            android:title="@string/menu_pre_paper" />
+        <item
+            android:id="@+id/navResetPass"
+            android:icon="@drawable/ic_reset_pass"
+            android:title="@string/menu_reset_pass" />
+        <item
+            android:id="@+id/navPrivacyPolicy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="@string/menu_privacy_policy" />
+        <item
+            android:id="@+id/navRateApp"
+            android:icon="@drawable/ic_rate_app"
+            android:title="@string/menu_rate_app" />
+        <item
+            android:id="@+id/navShareApp"
+            android:icon="@drawable/ic_share_app"
+            android:title="@string/menu_share_app" />
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_off_white"
+    tools:context=".activity.WelcomeActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutBars"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/rtlNext"
+        android:layout_marginBottom="40dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rtlNext"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/transparent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ivNext1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:onClick="next"
+            android:src="@drawable/ic_next_screen_blue"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/ivNext2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:onClick="next"
+            android:src="@drawable/ic_next_screen_blue"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivNext3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:onClick="next"
+            android:src="@drawable/ic_next_screen_blue"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/skip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/transparent"
+        android:onClick="skip"
+        android:src="@drawable/ic_right_arrow" />
+
+
+</RelativeLayout>

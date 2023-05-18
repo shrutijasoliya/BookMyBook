@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mHome"
+        android:icon="@drawable/ic_home_btm_nav_unselected"
+        android:title="Home" />
+    <item
+        android:id="@+id/mMyBooks"
+        android:icon="@drawable/ic_mybook_btm_nav_unselected"
+        android:title="My Books" />
+    <item
+        android:id="@+id/mAdd"
+        android:icon="@drawable/ic_add_btm_nav_unselected"
+        android:title="Add" />
+    <item
+        android:id="@+id/mChat"
+        android:icon="@drawable/ic_chat_btm_nav_unselected"
+        android:title="Chat" />
+    <item
+        android:id="@+id/mProfile"
+        android:icon="@drawable/ic_profile_btm_nav_unselected"
+        android:title="Profile" />
+</menu>
